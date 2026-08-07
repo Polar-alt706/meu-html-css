@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Adaptáveis</h1>
+    <p>Tente abrir esse site em diferentes dispositivos ou mude o tamanho da janela do navegador e veja oq acontece :></p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/imgP.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="img/imgM.png" type="image/png">
+<img src="img/img.png" alt="Imagem flexível"></picture>
+<!--a tag picture permite adicionar a tag source que adapta imagens de acordo com a imagem em img,isso permite que a imagem se adapte em diferentes zooms/telas diferentes
+os sources devem servir a piramide para funcionarem! ex:
+   -- source menor
+  ---- source medio
+-------- img original -->
+<h1>Audios em um site</h1>
+<audio preload="metadata" controls>
+    <source src="audio/exercicios_modulo-01_ex011_midia_happy-mistake.mp3" type="audio/mpeg">
+    <source src="audio/exercicios_modulo-01_ex011_midia_happy-mistake.wav" type="audio/wav">
+    <!--wav e extremamente pesado,nao e recomendavel usar-->
+    <source src="audio/exercicios_modulo-01_ex011_midia_happy-mistake.ogg" type="audio/ogg">
+    <p>Seu navegador nao e compativel com audio</p>
+</audio>
+</body>
+</html>

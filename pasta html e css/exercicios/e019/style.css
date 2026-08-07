@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body
+{
+    background-color: #07298f;
+    font-family: 'Times New Roman', Times, serif;
+}
+p
+{
+    color: white;
+    text-align: justify;
+}
+h1
+{
+background-color: #69078F;
+color: aquamarine;
+font-style: italic;
+}
+h2
+{
+    background-color: rgb(80, 151, 127);
+    color: rgb(114, 255, 255);
+    text-align: center;
+}
+#main
+{
+    color: #c79fff;
+    background-color: rgba(33, 64, 103, 0.534);
+    text-align: center;
+    text-decoration: underline;
+}
+.basic
+{
+    color:#a0d6ff ;
+    background-color: rgba(84, 152, 130, 0.462);
+    text-align: center;
+}

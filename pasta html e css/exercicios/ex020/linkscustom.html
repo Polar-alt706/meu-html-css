@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links custom</title>
+    <style>
+        a
+        {
+            text-decoration: none;
+            color: lightslategray;
+        }
+        a:hover
+        {
+color: rgb(50, 103, 85);
+        }
+        a:active
+{
+    color: black;
+}
+a::after
+{
+    content: ' [link]';
+    text-decoration: none;
+    color: grey;
+}
+div{
+    margin: 10px;
+    outline: 10px yellow;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+    </style>
+</head>
+<body>
+    <!-- 
+    id = #
+class  = .
+pseudo-class = :
+pseudo-element = ::
+children = >
+    -->
+    <div>
+        <h1>Meus links</h1>
+        <ul>
+        <li><a href="https://youtube.com"  target="_blank">Link 1</a></li>
+        <li><a href="https://youtube.com" target="_blank">Link 2</a></li>
+        <li><a href="https://youtube.com" target="_blank">Link 3 </a></li></ul>
+    </div>
+</body>
+</html>

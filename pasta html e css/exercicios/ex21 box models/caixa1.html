@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de caixas</title>
+    <style>
+        body {
+            margin: 1rem 5% 1rem 5%;
+        }
+        h1
+        {
+            text-align: center;
+            border: 10px double black;
+            background-color: rgba(165, 42, 42, 0.734);
+            margin: auto;
+            color: wheat;
+            outline: auto double red;
+        }
+    /*
+    Shorthands:
+       border:
+        tamanho estilo cor 
+       padding:
+        top right bottom left 
+       se usar 2 valores o css entende como width x height se usar só um valor fica em todos os lados, usa se 4 valores apenas quando sao dimensoes especificas
+    outline: tamanho estilo cor
+    margin: mesma coisa do padding
+    o auto faz com que a caixa se centralize de forma automatica
+    */
+        a {
+            border: 0.1rem solid burlywood;
+            padding: 0.2rem;
+            margin: 0.1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixas</h1>
+    <br>
+    <p>Parágrafos são exemplos de box level,já os <a href="#">links são exemplos de inline-box</a></p>
+</body>
+</html>
