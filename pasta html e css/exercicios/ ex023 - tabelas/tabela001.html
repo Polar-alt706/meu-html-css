@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            height: 400px;
+          border-collapse: collapse;
+        }
+        td
+        {
+            border: 1px solid black;
+            padding: 8px; 
+            vertical-align: middle;
+            text-align: right;
+        }
+        .linha1 {
+            background-color: gray;
+            color: white;
+        }
+        /* border-collapse: collapse; 
+            separamento entre bordas */
+    </style>
+</head>
+<body>
+    <!--
+            HIERARQUIA DE TABELAS(SIMPLES)
+    TABELA <table>
+        LINHA DE TABELA <tr>
+            CABEÇALHO DE TABELA 
+                DADO DE TABELA <td>
+                    td não é obrigatorio fechar a tag
+    -->
+    <h1>Minha primeira tabela</h1>
+    <table>
+        <tr class="linha1">
+            <td>a1</td>
+            <td>b1</td>
+            <td>c1</td>
+        </tr>
+        <tr>
+            <td>a2</td>
+            <td>b2</td>
+            <td>c2</td>
+        </tr>
+    </table>
+</body>
+</html>
