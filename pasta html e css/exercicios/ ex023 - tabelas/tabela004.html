@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Exercício de tabelas
+    </title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption
+        {
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        table
+        {
+            border-collapse: collapse;
+        }
+        table , td , th {
+            padding: 10px;
+        }
+        td
+        {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th
+        {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+    <table>
+        <caption>
+            Filmes favoritos
+        </caption>
+        <thead>
+            <td>Grupos</td>
+            <td>Nomes</td>
+            <td colspan="3">Filmes</td>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">
+                    Mulheres
+                </th>
+                <td>Ana</td>
+                <td>filme</td>
+                <td>filme</td>
+                <td>filme</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>filme</td>
+                <td>filme</td>
+                <td>filme</td>
+            </tr>
+            <tr>
+                <td>Lindaura</td>
+                <td>filme</td>
+                <td>filme</td>
+                <td>filme</td>
+            </tr>
+            <tr>
+                <th rowspan="3">
+                    Homens
+                </th>
+                <td>João</td>
+                <td>filme</td>
+                <td>Filmes</td>
+                <td>filmin</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>filme</td>
+                <td>filme</td>
+                <td>filme</td>
+            </tr>
+            <tr>
+                <td>José</td>
+                <td>filme</td>
+                <td>filme</td>
+                <td>filme</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
