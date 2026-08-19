@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            height: 400px;
+          border-collapse: collapse;
+        }
+        th , td
+        {
+            border: 1px solid black;
+            padding: 8px; 
+            text-align: center;
+        }
+        caption
+        {
+            font-weight: bold;
+            font-size: 1.5em;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .cnome
+        {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabela</h1>
+    <table>
+        <colgroup>
+            <col  class="cnome">
+        <col class="csexo">
+    <col class="cidade"> 
+</colgroup>
+        <caption>
+            Cadastro
+        </caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>Homem</td>
+            <td>19 anos</td>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>Homem</td>
+            <td>19 anos</td>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>Homem</td>
+            <td>19 anos</td>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>Homem</td>
+            <td>19 anos</td>
+        </tr>
+    </table>
+</body>
+</html>
