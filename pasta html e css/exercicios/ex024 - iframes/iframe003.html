@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação por iframes</title>
+    <style>
+        body{
+            background-color: azure;
+        }
+        a{
+            font-weight: bold;
+        }
+        iframe
+        {
+            width: 95%;
+            height: 400px;
+            margin: 2.5%;
+        }
+        h1
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Escolha uma página</h1>
+
+        <iframe name="frame" frameborder="0">
+        <p>Navegador incompativel</p>
+    </iframe>
+
+    <ul>
+        <li><a href="biblioteca/desafio 10/index.html" target="frame">Projeto Android</a></li>
+        <li><a href="biblioteca/desafio13/tabela0.html" target="frame">Tabela de letras mescladas</a>
+        </li>
+        <li><a href="biblioteca/desafio13/tabelaA.html" target="frame">Tabela de números mesclados</a></li>
+        <li><a href="biblioteca/desafio13/tabelanota.html" target="frame">Tabela de Boletim</a></li>
+    </ul>
+
+</body>
+</html>
