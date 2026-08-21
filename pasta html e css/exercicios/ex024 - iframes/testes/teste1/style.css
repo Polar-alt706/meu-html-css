@@ -1,5 +1,37 @@
-*
+body
 {
-    padding: 0px;
-    margin: 0px;
+    background-color: rgba(110, 1, 110, 0.791);
+}
+h1
+{
+    text-align: center;
+    color: aliceblue;
+}
+a
+{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: white;
+}
+p
+{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+div
+{
+    margin: auto;
+    width: fit-content;
+}
+iframe
+{
+    border-radius: 5px;
+    border: 5px dashed white;
+    width: 90vw;
+    height: 250px;
 }
