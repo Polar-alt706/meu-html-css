@@ -40,12 +40,24 @@ main {
     width: 269px;
     height: 471px;
 }
-
+#redes
+{
+    text-align: right;
+}
 #redes img {
     position: relative;
     top: 0%;
     left: 0%;
 
-    width: 50px;
+    width: 60px;
+    margin: 10px;
+
+    border-radius: 100%;
+    box-sizing:border-box; /*torna a borda parte da caixa*/
+}
+#redes img:hover
+{
+    border: 2px dashed white;
+    width: 63px;
 }
 
