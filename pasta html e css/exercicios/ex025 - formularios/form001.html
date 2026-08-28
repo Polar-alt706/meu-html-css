@@ -8,10 +8,15 @@
 <body>
     <h1>Meu primeiro formualario</h1>
     <form>
+        <!--autocomplete desativa ou ativa o auto complete dos formularios
+        o parametro action envia dados para uma linguagem, ex: action=cadastro.php-->
         <p>
-            <input type="text" name="nome" id="sobrenome">
+            <label for="nome">Nome:</label>
+            <!--liga a etiqueta a caixa do formulario-->
+            <input type="text" name="nome" id="nome">
         </p>
         <p>
+            <label for="sobrenome">Sobrenome:</label>
             <input type="text" name="sobrenome" id="sobrenome">
         </p>
         <p>
