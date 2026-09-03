@@ -1,0 +1,17 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html , body {
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
