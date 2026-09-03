@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    padding: 10px;
+    margin: 10px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+menu {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+}
+
