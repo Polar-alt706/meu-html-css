@@ -28,3 +28,8 @@ main {
     padding: 10px;
     background-color: rgba(240, 248, 255, 0.674);
 }
+
+img {
+    display: block;
+    margin: auto;
+}
