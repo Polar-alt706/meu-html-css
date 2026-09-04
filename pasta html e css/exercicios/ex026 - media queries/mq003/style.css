@@ -23,8 +23,6 @@
         Css modo retrato
         */
         @media screen and (orientation: portrait) {
-        @charset "UTF-8";
-
         body {
             background-image: url( ../imagens/cev-portrait.jpg);
             background-position: center bottom;
@@ -41,6 +39,7 @@
             margin: 0px;
             padding: 0px;
         }
+
         body {
             background-image: url(../imagens/cev-landscape.jpg);
             background-position: left bottom;
