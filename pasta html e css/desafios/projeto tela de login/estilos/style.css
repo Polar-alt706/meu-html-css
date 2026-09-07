@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgb(12, 12, 87);
+}
+
+h1 {
+    margin-top: 5%;
+    margin-left: 5%; 
+    color: white;
+}
+
+.logo {
+    display: inline-block;
+    width: 160px;
+    height: 87px;
+}
