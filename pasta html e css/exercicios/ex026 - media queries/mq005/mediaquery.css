@@ -23,6 +23,15 @@
              border: 5px solid rgb(11, 38, 89);
              background-color: rgb(26, 90, 208);
         }
+
+        main {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.346);
+            border: 1px solid gray;
+        }
 }
 
 
