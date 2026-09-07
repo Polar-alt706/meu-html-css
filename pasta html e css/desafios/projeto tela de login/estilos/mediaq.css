@@ -1,1 +1,32 @@
-@charset "UTF-8";
+@media screen and (min-width: 851px) {
+     #img {
+    background-color: white;
+    background-image: url(../imagens/Gemini_Generated_Image_8e9hr68e9hr68e9h.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height: 50%;
+    max-height: 700px;
+
+    margin: auto;
+
+    width: 85vw;
+    max-width: 850px;
+}
+}
+
+@media screen and (max-width: 850px) {
+     #img {
+    background-color: white;
+    background-image: url(../imagens/Gemini_Generated_Image_8e9hr68e9hr68e9h.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    height: 30%;
+    max-height: 768px;
+    width: 100%;
+    max-width: 1376px;
+}
+}

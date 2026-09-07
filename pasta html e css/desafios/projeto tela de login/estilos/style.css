@@ -48,29 +48,16 @@ p {
 
 #login {
     border-radius: 10px;
-    padding: 10px;
     margin: auto;
-
-
+    padding: 5px;
     width: 90vw;
-    max-width: 700px;
-    height: 90vh;
+    max-width: 900px;
+    height: 100vh;
     max-height: 700px;
     background-color: white;
 
     transition: width .5s, height .5s;
     transition-timing-function: ease;
-}
-
-#img {
-    background-color: white;
-    background-image: url(../imagens/Gemini_Generated_Image_8e9hr68e9hr68e9h.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right center;
-
-    height: 40%;
-    width: 100%;
 }
 
 #form {
